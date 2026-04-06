@@ -1,12 +1,17 @@
-/**
- * This is the root layout for your application.
- * It will be used for setting up global components and styles.
- */
-export default function RootLayout({ children }) {
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "Address Validation App",
+  description: "Validação de moradas",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html>
+    <html lang="pt">
       <head>
-        <title>Your App Title</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body>{children}</body>
     </html>
