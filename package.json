@@ -1,1 +1,28 @@
-{"name":"address-validation-app","version":"0.1.0","private":true,"dependencies":{"next":"latest","react":"latest","react-dom":"latest","tailwindcss":"latest","postcss":"latest","autoprefixer":"latest","leaflet":"latest","react-leaflet":"latest","axios":"latest","lucide-react":"latest"},"devDependencies":{"typescript":"latest","@types/react":"latest","@types/node":"latest","@types/leaflet":"latest"},"scripts":{"dev":"next dev","build":"next build","start":"next start"}}
+{
+  "name": "address-validation-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.3",
+    "papaparse": "^5.4.1",
+    "@types/papaparse": "^5.3.14"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/react": "latest",
+    "@types/node": "latest",
+    "@types/leaflet": "latest"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
+}
