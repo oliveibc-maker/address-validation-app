@@ -1,0 +1,1 @@
+export default function Home() { return <main><h1>Address Validation App</h1><p>Bem-vindo!</p></main> }
